@@ -1,6 +1,6 @@
 # pop3_server
 This C++ module can connect to POP3 server and search / delete mail.
-This module uses clx as an external library.
+This module uses [clx](https://github.com/clown/clx) as an external library.
 Regarding use licenses, it complies with clx.
 
 # How To Use
