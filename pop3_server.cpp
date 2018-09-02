@@ -22,9 +22,7 @@ namespace pms {
                            int port) {
         try {
             session.start(servername, port);
-            std::cout << "start" << std::endl;
             session.login(username, password, session.apop_support());
-            std::cout << "login" << std::endl;
             listSize = session.list().size();
         }
         catch (clx::pop3_error& e) {
